@@ -1,0 +1,50 @@
+body
+  *:not(
+    :has([aria-describedby="Exit-chat-container"]),
+    [aria-describedby="Exit-chat-container"],
+    [aria-describedby="Exit-chat-container"] *
+  ) {
+  display: none !important;
+}
+
+/* ヘッダー・入力欄などのチャット外UI */
+tw-transition-group,
+.tw-transition-group,
+[role="banner"],
+[role="navigation"],
+[data-a-target="chat-room-header"],
+[data-a-target="stream-chat-header"],
+[data-test-selector="chat-room-header"],
+[data-test-selector="stream-chat-header"],
+[data-a-target="chat-input"],
+[data-test-selector="chat-input"],
+.chat-room__header,
+.chat-room-header,
+.chat-author__display-name,
+.chat-line__username-container.chat-line__username-container--hoverable,
+.chat-line__icons,
+.chat-line__message-highlight,
+.chat-badge,
+.chat-author__intl-login,
+span[aria-hidden="true"],
+.chat-line__timestamp,
+.simplebar-scrollbar,
+.community-highlight-stack__scroll-area--disable,
+.community-highlight-stack__backlog-card,
+.community-highlight-stack__nav-target,
+.paid-pinned-chat-message-content-wrapper,
+.stream-chat-header,
+.channel-leaderboard-container,
+.chat-input,
+.chat-paused-footer,
+.chat-line__status,
+.scrollable-trigger__wrapper,
+.scrollable-trigger__trigger-area,
+[data-test-selector="user-notice-line"],
+[data-a-target="chat-resubscription-message__custom-message"],
+.user-notice-line,
+.announcement-line,
+.community-highlight-stack__card,
+.hype-train__banner {
+  display: none !important;
+}
