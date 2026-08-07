@@ -45,6 +45,19 @@ span[aria-hidden="true"],
 .user-notice-line,
 .announcement-line,
 .community-highlight-stack__card,
-.hype-train__banner {
+.hype-train__banner,
+.huhoNj,
+.hkwTqh,
+.bPLZqY {
   display: none !important;
+}
+
+.fdiVsG {
+  border: none !important;
+  margin: 0 !important;
+}
+
+.TuFUp {
+  margin: 0 !important;
+  background-color: transparent !important;
 }
